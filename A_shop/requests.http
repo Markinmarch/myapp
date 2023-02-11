@@ -1,0 +1,16 @@
+GET http://localhost:8000/profile/
+
+###
+
+POST http://localhost:8000/profile/
+Content-Type: application/json
+Authorization: Token 42f53befebce7ba6f17683744ea262c131cfe86c
+
+{
+    "text": "Объявление"
+}
+
+###
+
+DELETE http://localhost:8000/profile/2/
+Authorization: Token 42f53befebce7ba6f17683744ea262c131cfe86c
